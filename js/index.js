@@ -20,6 +20,8 @@ const todos =[]
 
      elContainer.appendChild(nameP)
      nameP.textContent=`${tod.name} (${tod.todo})`
+
+     nameP.style.color="blue"
    }
 
  })
